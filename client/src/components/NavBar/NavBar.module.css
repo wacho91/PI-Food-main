@@ -2,6 +2,10 @@
     border-radius: 8px;
 }
 
+.divContainer {
+  width: 100%;
+}
+
 .navBar:hover{
     background-color: white;
   }

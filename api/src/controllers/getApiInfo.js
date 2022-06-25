@@ -1,9 +1,9 @@
 const axios = require('axios');
-const { API_KEY, API_KEY1, API_KEY2, API_KEY3 } = process.env;
+const { API_KEY, API_KEY1, API_KEY2, API_KEY3, API_KEY4, API_KEY5, API_KEY6 } = process.env;
 
 
 const getApiInfo = async () => {
-    const apiUrl = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?number=100&addRecipeInformation=true&apiKey=${API_KEY2}&includeNutrition=true`);
+    const apiUrl = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?number=100&addRecipeInformation=true&apiKey=${API_KEY4}&includeNutrition=true`);
 
     const recetas = apiUrl.data.results
 

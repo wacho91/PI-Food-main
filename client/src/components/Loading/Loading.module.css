@@ -1,0 +1,17 @@
+.divContainer {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    padding: 30px 17px 25px 15px;
+    height: 25px;
+    height: 0%;
+    width: 12%;
+    left: 43%;
+    top: 40%;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    margin: 8px;
+}

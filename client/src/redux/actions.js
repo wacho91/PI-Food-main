@@ -20,8 +20,10 @@ export function getRecipesName(name) {
                 payload: recipes.data
             })
         } catch (error) {
-            
-            console.log(alert('The recipe you are looking for was not found'));
+            dispatch({
+                type: 'GET_RECIPES_NAME',
+                payload: []
+            })
         }
     }
 }

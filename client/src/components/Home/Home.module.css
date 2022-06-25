@@ -15,7 +15,7 @@
 .divNavBar{
     /* position: fixed;
     z-index: 1; */
-    top: 0;
+    top: 5px;
     width: 100%;
 }
 

@@ -3,7 +3,7 @@ const { Router } = require('express');
 // Ejemplo: const authRouter = require('./auth.js');
 const axios = require("axios");
 const { Recipe, Diet } = require('../db');
-const { API_KEY, API_KEY1, API_KEY2, API_KEY3 } = process.env
+const { API_KEY, API_KEY1, API_KEY2, API_KEY3, API_KEY4, API_KEY5, API_KEY6 } = process.env
 const { getAllRecipes } = require('../controllers/getAllRecipes')
 
 
@@ -47,7 +47,7 @@ router.get('/types', async (req, res) => {
 
     const allDiet = await Diet.findAll();
     if (allDiet.length === 0) {
-      const dietApi = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY2}&number=100&addRecipeInformation=true`
+      const dietApi = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY4}&number=100&addRecipeInformation=true`
       );
       const diet = dietApi.data.results.map((el) => el.diets);
       // console.log(diet, "asdasd")

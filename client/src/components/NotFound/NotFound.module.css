@@ -1,0 +1,26 @@
+.btn {
+    background-color: rgba(8, 38, 46, 0.644);
+    color: rgb(236, 230, 230);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 40px;
+    border: none;
+    top: -20px;
+}
+
+.btn:hover {
+    background-color: white; 
+    color: rgba(74, 59, 207, 0.644);
+} 
+
+.title {
+    text-align: center;
+    font-size: 100px;
+    height: 100px;
+    left: 12%;
+    top: 0px;
+    bottom: 30px;
+    color: #ffffff;
+    text-shadow: -3px 2px #000, -3px -3px #000, 3px -3px #000, 3px 3px #030302;
+}
+

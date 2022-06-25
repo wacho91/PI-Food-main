@@ -21,7 +21,7 @@ export default function NavBar({setCurrentPage}) {
     }
 
     return (
-        <div>
+        <div className={styles.divContainer}>
             <form onSubmit={handleOnSubmit}>
                 <input
                     type="text"
